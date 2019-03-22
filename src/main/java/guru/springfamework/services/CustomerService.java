@@ -12,4 +12,8 @@ public interface CustomerService {
     CustomerDTO createCustomer(CustomerDTO customerDTO);
 
     CustomerDTO saveCustomer(Long id, CustomerDTO customerDTO);
+
+    CustomerDTO patchCustomer(Long id, CustomerDTO customerDTO);
+
+    void deleteCustomer(Long id);
 }
